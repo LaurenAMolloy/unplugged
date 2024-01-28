@@ -83,6 +83,94 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /*-------- Base Header-Footer styles --------*/
+
+  header {
+  display: flex;
+  justify-content: center;
+  }
+
+  header .content-wrapper {
+
+  }
+
+  header nav ul {
+
+  }
+
+  footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+
+  footer .social-icons {
+
+  }
+
+  footer .social p {
+
+  }
+
+  .hero-area {
+    display: flex;
+    justify-content: center;
+  }
+
+  aside {
+    display: flex;
+    justify-content: center;
+  }
+
+  .features {
+    display: flex;
+    justify-content: center;
+  }
+
+  .features .features-item-description {
+
+  }
+
+  .reviews{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* 
+  ===================================
+  ===================================
+   About Page
+   ===================================
+   ===================================
+   */
+
+  .mission {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* 
+  ===================================
+  ===================================
+   FAQ Page
+   ===================================
+   ===================================
+   */
+
+  .faq {
+    display: flex;
+    justify-content: center;
+  }
+
+  .faq .content-wrapper{
+
+  }
 
 /* ==========================================================================
    Helper classes
