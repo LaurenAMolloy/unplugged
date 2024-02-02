@@ -98,6 +98,8 @@ textarea {
    ul, 
    ol {
     list-style-type: none;
+    margin: 0;
+    padding 0;
    }
     
    a {
@@ -107,6 +109,7 @@ textarea {
     
    h2 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 1.875em;
    }
     
@@ -114,6 +117,7 @@ textarea {
    h4 {
     font-family: 'Poppins', sans-serif;
     margin: 20px 0;
+    font-weight: 500;
     font-size: 1.25em;
    }
 
@@ -138,6 +142,7 @@ textarea {
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  background-color: #202322;
   }
 
   header .content-wrapper {
@@ -156,6 +161,9 @@ textarea {
 
   header nav {
     width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   header nav ul {
@@ -164,11 +172,17 @@ textarea {
    width: 100%;
   }
 
+  header nav ul li {
+    font-size: 1.125em;
+  }
+
   footer {
    display: flex;
    flex-direction: column;
    align-items: center;
    text-align: center;
+   background-color: #202322;
+   color: #e2e2e2;
   }
 
   footer p {
@@ -207,13 +221,48 @@ textarea {
     justify-content: center;
   }
 
+  hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+
 /* Aside */
 
   aside {
     display: flex;
     justify-content: center;
+    background-color:#527158;
+    color:#e2e2e2
   }
 
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
 /* Features */
 
   .features {
@@ -241,9 +290,11 @@ textarea {
     margin: 0;
   }
 /* Reviews */
-  .reviews{
+  .reviews {
     display: flex;
     justify-content: center;
+    background-color: #2a423a;
+    color: #e2e2e2;
   }
 
   .reviews h2{
@@ -267,11 +318,15 @@ textarea {
   .mission {
     display: flex;
     justify-content: center;
+    background-color: #527158;
+    color:#e2e3ed ;
   }
 
   .contact-section {
     display: flex;
     justify-content: center;
+    background-color: #2a423a;
+    color: #e2e3ed;
   }
 
   .contact-content {
@@ -289,6 +344,8 @@ textarea {
   .faq {
     display: flex;
     justify-content: center;
+    background-color: #527158;
+    color: #e2e3ed;
   }
 
   .faq .content-wrapper{
@@ -307,6 +364,9 @@ textarea {
   margin-bottom: 50px;
   }
 
+  .faq-content h4 {
+    line-height: 1.333;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
