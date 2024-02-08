@@ -95,6 +95,7 @@ textarea {
     font-size: 1em;
     color: #e2e3ed;
     text-align: left;
+    background-color: #202322;
    }
     
    ul, 
@@ -207,7 +208,7 @@ textarea {
   }
 
   footer .contact {
-    margin: 50px ;
+    margin-bottom: 50px ;
   }
 
   footer .social-icons {
@@ -243,6 +244,7 @@ textarea {
     justify-content: center;
     background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
     background-size: cover;
+    background-position: center;
     min-height:500px;
   }
 
@@ -251,7 +253,6 @@ textarea {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2;
-    color: #e2e2e2;
   }
   
 
@@ -261,7 +262,6 @@ textarea {
     display: flex;
     justify-content: center;
     background-color:#527158;
-    color:#e2e2e2
   }
 
   aside .form {
@@ -330,11 +330,11 @@ textarea {
     display: flex;
     justify-content: center;
     background-color: #2a423a;
-    color: #e2e2e2;
   }
 
   .reviews h2{
     margin-bottom: 40px;
+    line-height: 1;
   }
 
   .review h3 {
@@ -355,14 +355,12 @@ textarea {
     display: flex;
     justify-content: center;
     background-color: #527158;
-    color:#e2e3ed ;
   }
 
   .contact-section {
     display: flex;
     justify-content: center;
     background-color: #2a423a;
-    color: #e2e3ed;
   }
 
   .contact-content {
@@ -397,7 +395,6 @@ textarea {
     display: flex;
     justify-content: center;
     background-color: #527158;
-    color: #e2e3ed;
   }
 
   .faq .content-wrapper{
@@ -410,6 +407,7 @@ textarea {
 
   faq h2 {
   margin: 40px;
+  line-height: 1;
   }
 
   .faq-content {
@@ -510,6 +508,16 @@ textarea {
       margin: 100px 0;
   }
 
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
   /* Header */
 
   header {
@@ -576,7 +584,11 @@ textarea {
   }
 
   .features .features-item-description {
-      width: 50%;
+      width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -624,6 +636,12 @@ footer p {
   line-height: 1.285;
 }
 
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
+
 footer .copyright {
     width: 100%;
 }
@@ -657,6 +675,10 @@ footer .copyright {
     align-items: flex-start;
 }
 
+.contact-content h4 {
+  font-size: 1.5em;
+}
+
 /* ==========================================================================
 FAQ Page
 ========================================================================== */
@@ -679,7 +701,8 @@ FAQ Page
   }
 }
 @media only screen and (min-width: 1200px) {  
-  /*Desktop styles here */  
+  /*Desktop styles here */ 
+  /* General styles */
    
       header {
           padding: 15px 0;
