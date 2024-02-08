@@ -113,6 +113,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    margin:0;
    }
     
    h3, 
@@ -154,11 +155,11 @@ textarea {
   }
 
   header .content-wrapper {
+    margin: 0;
     display: flex;
     justify-content:center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 0;
   }
 
   header figure {
@@ -195,7 +196,6 @@ textarea {
    align-items: center;
    text-align: center;
    background-color: #202322;
-   color: #e2e2e2;
   }
 
   footer p {
@@ -220,7 +220,16 @@ textarea {
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: #527158;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
   }
+
+  footer .social-icons p i {
+    font-size: 1.3125em;
+  }
+  
 
   footer .copyright {
     margin: 20px 0;
@@ -287,6 +296,7 @@ textarea {
     justify-content: center;
     background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
     background-size: cover;
+    background-position: center;
   }
 
   .features h2 {
@@ -306,6 +316,7 @@ textarea {
   }
 
   .features p {
+    text-align: center;
     margin: 0;
   }
 
